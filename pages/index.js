@@ -1,17 +1,15 @@
-import NavBar from "../components/NavBar";
+import Head from "next/head";
 
 function HomePage() {
   return (
-    <main>
-      <>
-        <header>
-          <NavBar />
-        </header>
-        <main>
-          <h1>My Blog</h1>
-        </main>
-      </>
-    </main>
+    <>
+      <Head>
+        <title>My Blog</title>
+      </Head>
+      <main>
+        <h1>My Blog</h1>
+      </main>
+    </>
   );
 }
 
